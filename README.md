@@ -10,13 +10,8 @@
 
 
 # Learning Objectives
-Ive created this app to go over the main learning objectives of of our my bootcamp 
-
-* a single, simple API endpoint (`/api/v1/fruits`)
-* a single React component (`<App />`)
-* an example database module (`server/db/fruits.js`)
-* an API client module (`client/apis/fruits.js`)
-* configuration for Vitest and testing library
-* configuration for server-side debugging in VS Code
-* configuration for preprocessing Sass
+Ive created this app to go over the main learning objectives of Dev academy
+i wanted to create a database for machanic shop so they could keep track of the jobs, parts and vehicles 
+it would be able to get the latest information from the database and display it
+* Full-Stack App
 
