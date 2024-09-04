@@ -14,9 +14,12 @@ export function VehicleById() {
 
   return (
     <>
-      <p>{data.name}</p>
-      <p>{data.make}</p>
-      <p>{data.model}</p>
+      <div>Vehicles</div>
+      <div className="vehicle-content">
+        <p>Vehicle:{data.name}</p>
+        <p>Vehicle Make:{data.make}</p>
+        <p>Vehicle Model{data.model}</p>
+      </div>
     </>
   )
 }

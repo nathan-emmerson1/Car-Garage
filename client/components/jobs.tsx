@@ -8,13 +8,16 @@ function Job() {
 
   return (
     <>
-      <p>Theres are the jobs</p>
+      <h1>Job List</h1>
       <ul>
         {jobs.map((job) => (
           <li key={job.id}>
-            <div>
-              <p>{job.name}</p>
-              <p></p>
+            <div className="job-container">
+              <div className="job-content">
+                <p>Job Name:{job.name}</p>
+                <p>Date:{job.date}</p>
+                <p>Description:{job.description}</p>
+              </div>
             </div>
           </li>
         ))}

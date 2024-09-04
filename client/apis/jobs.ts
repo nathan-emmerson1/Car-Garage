@@ -1,5 +1,5 @@
 import request from 'superagent'
-import { Jobs, JobData } from '../../models/jobs'
+import { Jobs } from '../../models/jobs'
 
 const rootUrl = '/api/v1/jobs'
 

@@ -8,15 +8,16 @@ export function Vehicles() {
 
   return (
     <>
-      <h1>There are the vehicles</h1>
+      <h1>Vehicle List</h1>
       <ul>
         {data.map((vehicle) => (
           <li key={vehicle.id}>
-            <div>
-            <p>Id:{vehicle.id}</p>
-              <p>Name:{vehicle.name}</p>
-              <p>Make:{vehicle.make}</p>
-              <p>Model:{vehicle.model}</p>
+            <div className="vehicle-container">
+              <div className="vehicle-content">
+                <p>Name:{vehicle.name}</p>
+                <p>Make:{vehicle.make}</p>
+                <p>Model:{vehicle.model}</p>
+              </div>
             </div>
           </li>
         ))}

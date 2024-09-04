@@ -1,15 +1,15 @@
-import { useFruits } from '../hooks/useFruits.ts'
+import Job from './jobs.tsx'
 import { Vehicles } from './vehiclesdetail.tsx'
 
 function App() {
-  const { data } = useFruits()
-
   return (
     <>
       <div className="app">
-        <h1>Fullstack Boilerplate - with Fruits!</h1>
-        <ul>{data && data.map((fruit) => <li key={fruit}>{fruit}</li>)}</ul>
+        <div>
+          <h1>Car garage</h1>
+        </div>
         <Vehicles />
+        <Job />
       </div>
     </>
   )

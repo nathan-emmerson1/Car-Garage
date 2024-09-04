@@ -8,6 +8,7 @@ export function up(knex) {
     table.string('name')
     table.string('make')
     table.string('model')
+    table.integer('job_id')
   })
 }
 

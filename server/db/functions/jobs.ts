@@ -1,5 +1,5 @@
-import connection from './connection'
-import { Jobs, JobData } from '../../models/jobs'
+import connection from '../connection'
+import { Jobs, JobData } from '../../../models/jobs'
 
 const db = connection
 
@@ -13,8 +13,6 @@ export async function getJobById(id: number) {
   return result as JobData
 }
 
-
 export async function addJob(newJob: JobData) {
-  return await db('jobs').insert({newJob})
-  
+  return await db('jobs').insert({ newJob })
 }
